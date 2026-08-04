@@ -7,7 +7,7 @@ const Reloj = () => {
 
     // Conditional render
 
-    const alternarVisibilidad = () => setIsVisible(!isVisible)
+    const alternarVisibilidad = () => setIsVisible(!isVisible) // !theme
 
     useEffect(() => {
         let temporizador;
