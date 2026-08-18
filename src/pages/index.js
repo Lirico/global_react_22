@@ -1,9 +1,13 @@
-import Contador2 from "@/components/Contador2";
+import Cart from "@/components/cart/Cart";
+import CartContextProvider from "@/context/CartContextProvider";
+
 
 export default function Home() {
   return (
     <>
-      <Contador2 />
+      <CartContextProvider>
+        <Cart />  
+      </CartContextProvider>
     </>
   );
 }
