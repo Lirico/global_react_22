@@ -9,3 +9,6 @@ export const initialState = {
     ],
     cart: [],
 };
+
+
+// const newItem = { id: 1, name: "Producto A", price: 10 }
