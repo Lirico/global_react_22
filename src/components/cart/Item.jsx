@@ -11,7 +11,7 @@ const Item = ({item, removeFromCart}) => {
         <h4>{name}</h4>
         <h5>${price} x {quantity} = {price * quantity}</h5>
         <button onClick={() => removeFromCart(id)}>Eliminar uno</button>
-        <button onClick={() => removeFromCart(id)}>Eliminar Todos</button>
+        <button onClick={() => removeFromCart(id, true)}>Eliminar Todos</button>
     </div>
   )
 }
